@@ -1,6 +1,6 @@
 {
   "name": "NBY_TwilioArduino",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for using Twilio services (call, sms) with Arduino",
   "keywords": "nby, twilio, arduino, call, sms",
   "repository": {
@@ -17,5 +17,6 @@
   "license": "MIT",
   "homepage": "https://noibinhyen.tech",
   "frameworks": "arduino",
+  "examples": "./examples/*.cpp",
   "platforms": ["espressif8266", "espressif32"]
 }

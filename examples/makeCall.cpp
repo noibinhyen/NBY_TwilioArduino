@@ -1,7 +1,9 @@
-#include <Adriuno.h>
+#include <Arduino.h>
 #include <HTTPClient.h>
 #include <NBY_TwilioArduino.h>
 
+const char* ssid = "MY_SSID";
+const char* password = "MY_PASSWORD";
 const String accountSid = "MY_ACCOUNT_SID";
 const String authToken = "MY_AUTH_TOKEN";
 String fromNumber = "FORM_NUMBER";
