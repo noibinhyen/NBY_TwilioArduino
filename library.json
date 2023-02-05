@@ -1,8 +1,8 @@
 {
   "name": "NBY_TwilioArduino",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library for using Twilio services (call, sms) with Arduino",
-  "keywords": "nby, twilio, arduino, call, sms",
+  "keywords": "nby, twilio, arduino, call, sms, esp32, esp8266, wifi, httpclient, services",
   "repository": {
     "type": "git",
     "url": "https://github.com/noibinhyen/NBY_TwilioArduino.git"
@@ -18,5 +18,5 @@
   "homepage": "https://noibinhyen.tech",
   "frameworks": "arduino",
   "examples": "./examples/*.cpp",
-  "platforms": ["espressif8266", "espressif32"]
+  "platforms": "*"
 }
